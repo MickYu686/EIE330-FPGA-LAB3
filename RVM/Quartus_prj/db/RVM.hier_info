@@ -1,0 +1,21 @@
+|RVM
+sys_clk => refund[0]~reg0.CLK
+sys_clk => refund[1]~reg0.CLK
+sys_clk => refund[2]~reg0.CLK
+sys_clk => coke~reg0.CLK
+sys_clk => st_cur~1.DATAIN
+sys_rst_n => refund[0]~reg0.ALOAD
+sys_rst_n => refund[1]~reg0.ALOAD
+sys_rst_n => refund[2]~reg0.ALOAD
+sys_rst_n => coke~reg0.ACLR
+sys_rst_n => st_cur~3.DATAIN
+coin[0] => Equal0.IN0
+coin[0] => Equal1.IN1
+coin[1] => Equal0.IN1
+coin[1] => Equal1.IN0
+coke <= coke~reg0.DB_MAX_OUTPUT_PORT_TYPE
+refund[0] <= refund[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+refund[1] <= refund[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+refund[2] <= refund[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

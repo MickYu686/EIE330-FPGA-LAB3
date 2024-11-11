@@ -1,0 +1,73 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2023.3 2023.07, Jul 17 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dD:/colleage/fpga/lab3/vendingmachine/simulation/questa
+T_opt
+!s110 1731227007
+V][F`_cQmD22dojNXF42a[0
+04 17 4 work tb_vendingmachine fast 0
+=1-ac5afc9b94f2-67306d7f-131-3980
+R0
+!s12b OEM100
+!s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2023.3;77
+vtb_vendingmachine
+2D:/colleage/fpga/lab3/vendingmachine/Sim/tb_vendingmachine.v
+Z3 !s110 1731227005
+!i10b 1
+!s100 9JlJkihZgClN>9PGTIn053
+IQUM4:kzkfDc9@4eB<>0N=2
+R1
+w1731226948
+8D:/colleage/fpga/lab3/vendingmachine/Sim/tb_vendingmachine.v
+FD:/colleage/fpga/lab3/vendingmachine/Sim/tb_vendingmachine.v
+!i122 1
+L0 3 39
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2023.3;77
+r1
+!s85 0
+31
+Z6 !s108 1731227005.000000
+!s107 D:/colleage/fpga/lab3/vendingmachine/Sim/tb_vendingmachine.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/colleage/fpga/lab3/vendingmachine/Sim|D:/colleage/fpga/lab3/vendingmachine/Sim/tb_vendingmachine.v|
+!i113 0
+Z7 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work +incdir+D:/colleage/fpga/lab3/vendingmachine/Sim -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vvendingmachine
+2D:/colleage/fpga/lab3/vendingmachine/RTL/vendingmachine.v
+R3
+!i10b 1
+!s100 ^P_7g;heB83]WZJFH2c:<0
+II8SSeF4VQn]:8zin5B@aB3
+R1
+w1731226854
+8D:/colleage/fpga/lab3/vendingmachine/RTL/vendingmachine.v
+FD:/colleage/fpga/lab3/vendingmachine/RTL/vendingmachine.v
+!i122 0
+L0 1 77
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/colleage/fpga/lab3/vendingmachine/RTL/vendingmachine.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/colleage/fpga/lab3/vendingmachine/RTL|D:/colleage/fpga/lab3/vendingmachine/RTL/vendingmachine.v|
+!i113 0
+R7
+!s92 -vlog01compat -work work +incdir+D:/colleage/fpga/lab3/vendingmachine/RTL -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
